@@ -1,0 +1,103 @@
+
+
+
+
+page-obra-cadastro {
+
+
+
+}
+
+.ion-card-remover {
+    // height: 0px !important;
+    font-size: 0px !important;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    text-align: unset !important;
+}
+
+// .card-md{
+// 	// margin: 0 !important;
+// 	// width: unset;
+// }
+
+.form {
+	width: 350px;
+	
+	.group {
+		position: relative;
+
+		width: 100%;
+		margin-bottom: 2rem;
+		
+		
+		&.-ionic {
+			> .field {
+		
+				
+                height: 50px;
+               
+				text-indent: 12px;
+				// border-radius: 6px;
+				border: 1px solid #707070;
+				
+				&:focus,
+				&:valid {
+					border-color: #EB6607;
+					
+					+ .title {
+                        top: 0;
+                    		
+						color: #EB6607;
+					}
+				}
+				
+				+ .title {
+					
+				
+					left: 8px;
+					
+					padding: 0 .5rem;
+					
+					background-color: #FFF;
+				}
+			}
+		}
+
+		> .field {
+            //mudar para um tamanho padrão
+			width: 80vw;
+
+			border: 0;
+			outline: none;
+
+			+ .title {				
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+
+				color: #707070;
+				transition: .3s;
+				font-size: 20px;
+				pointer-events: none;
+			}
+
+			&:focus,
+			&:valid {
+				+ .title {
+					transition: .3s;
+					font-size: 15px;
+				}
+			}
+		}
+	}
+}
+
+
+ion-card{
+    border: none !important;
+    height: auto !important;
+    min-height: 50px !important;
+    overflow: hidden !important;
+}
+

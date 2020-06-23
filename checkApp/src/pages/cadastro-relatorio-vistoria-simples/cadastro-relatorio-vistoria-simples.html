@@ -1,0 +1,119 @@
+
+<ion-header>     
+  <div class="icone-voltar"></div>
+  <div class="nome-contrato">Novo Relatório <div class="status-page">OFFLINE</div></div>
+  <div class="titulo-pagina">Vistoria Simples</div>
+  
+  <div class="botao">
+    <p class="agencia-cadastro">1416 - AG. PIRITUBA - SEMANA 1</p>
+    <p></p>
+  </div>
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card>
+    <h2 class="titulo-card">Avaliação Semanal</h2>
+    <div class="botao-avaliacao-cadastro"></div>
+
+
+
+    <div class="container-cadastro">
+      <div class="slidecontainer">
+        <p class="titulo-cadastro">ANDAMENTO DE OBRA</p>
+        <div class="porcentagem-cadastro">
+          100%
+        </div>
+        <input type="range" min="1" max="100" value="100" class="slider" id="myRange">
+        <!-- <p>Value: <span id="demo"></span></p> -->
+      </div>
+  
+      <form >
+        <p class="titulo-cadastro">USO DE EPI'S</p>
+        <ionic3-star-rating #rating 
+            activeIcon = "icone-estrela"
+            defaultIcon = "icone-estrelavazia"
+            activeColor = "#EB6607"
+            defaultColor = "#aaaaaa"
+            readonly = "false"
+            fontSize = "60px"
+           
+           >
+        </ionic3-star-rating>
+  
+        <p class="titulo-cadastro">QUALIDADE DE SERVIÇOS</p>
+        <ionic3-star-rating #rating 
+            activeIcon = "icone-estrela"
+            defaultIcon = "icone-estrelavazia"
+            activeColor = "#EB6607"
+            defaultColor = "#aaaaaa"
+            readonly = "false"
+            fontSize = "60px"
+           
+           >
+        </ionic3-star-rating>
+
+        <p class="titulo-cadastro">ORGANIZAÇÃO/PLANEJAMENTO</p>
+        <ionic3-star-rating #rating 
+        activeIcon = "icone-estrela"
+        defaultIcon = "icone-estrelavazia"
+        activeColor = "#EB6607"
+        defaultColor = "#aaaaaa"
+        readonly = "false"
+        fontSize = "60px"
+       
+       >
+    </ionic3-star-rating>
+
+        <p class="titulo-cadastro">LIMPEZA DE OBRA</p>
+        <ionic3-star-rating #rating 
+            activeIcon = "icone-estrela"
+            defaultIcon = "icone-estrelavazia"
+            activeColor = "#EB6607"
+            defaultColor = "#aaaaaa"
+            readonly = "false"
+            fontSize = "60px"
+           
+           >
+        </ionic3-star-rating>
+
+        <p class="titulo-cadastro">PRAZO</p>
+        <ionic3-star-rating #rating 
+            activeIcon = "icone-estrela"
+            defaultIcon = "icone-estrelavazia"
+            activeColor = "#EB6607"
+            defaultColor = "#aaaaaa"
+            readonly = "false"
+            fontSize = "60px"
+           
+           >
+        </ionic3-star-rating>
+
+        
+
+      </form>
+    </div>
+
+    
+
+<!-- Usar esta versão -->
+    <!-- <form [formGroup]="customForm">
+
+      <ionic3-star-rating #rating 
+          activeIcon = "ios-star"
+          defaultIcon = "ios-star-outline"
+          activeColor = "#d1301a"
+          defaultColor = "#aaaaaa"
+          readonly = "false"
+          fontSize = "32px"
+          (ratingChanged)="logRatingChange($event)"
+          formControlName="starRating">
+      </ionic3-star-rating>
+
+    </form> -->
+ </ion-card>
+ <ion-card>
+   <h2 class="titulo-card">Descrição de Vistoria </h2>
+   <div class="botao-descricao-cadastro"></div>
+ </ion-card>
+</ion-content>

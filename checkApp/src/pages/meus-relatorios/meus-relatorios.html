@@ -1,0 +1,70 @@
+<ion-header>     
+  <div class="icone-voltar"></div>
+  <div class="nome-contrato">Ag. Pirituba</div>
+  <div class="titulo-pagina">Meus Relatórios</div>
+  <div class="botao">
+    <div class="relatorio-andamento" >
+      EM ABERTO
+    </div>
+    <div class="relatorio-finalizadas" (click)="irparafinalizados()">
+      ENVIADOS
+    </div>
+  </div>
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card class="card-relatorio">
+    <section>
+      <div class="item-relatorio">  Ag. Pirituba</div>
+      <div class="botao">
+        <div class="andamento">
+          EM ABERTO
+        </div>
+      </div>
+      <div class="data-relatorio">
+        <div>teste</div>
+        <div>04/07</div>
+      </div>
+    </section>
+   
+  </ion-card>
+
+  <ion-card class="card-relatorio">
+    <section>
+      <div class="item-relatorio">  Ag. Pirituba</div>
+      <div class="botao">
+        <div class="andamento">
+          EM ABERTO
+        </div>
+      </div>
+      <div class="data-relatorio">
+        <div>teste</div>
+        <div>04/07</div>
+      </div>
+    </section>
+   
+  </ion-card>
+
+  <ion-card class="card-relatorio">
+    <section>
+      <div class="item-relatorio">  Ag. Pirituba</div>
+      <div class="botao">
+        <div class="andamento">
+          EM ABERTO
+        </div>
+      </div>
+      <div class="data-relatorio">
+        <div>teste</div>
+        <div>04/07</div>
+      </div>
+    </section>
+   
+  </ion-card>
+
+  <ion-fab right style="bottom: 18px; right: 20px;">
+    <button (click)="irparaescolhaderelatorios()" class="botao-adicionar" ion-fab>
+      <ion-icon name="add"></ion-icon>
+    </button>
+  </ion-fab> 
+</ion-content>

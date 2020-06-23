@@ -1,0 +1,113 @@
+// page-obras-finalizadas {
+
+// }
+
+
+@font-face {
+    font-family: 'barlow-bold';
+    src: url('../../assets/fonts/Barlow-Bold.otf');//mine
+}
+
+
+
+
+ion-card{
+    height: 50px;
+    font-size: 30px !important;
+    padding-top: 8px;
+    padding-left: 10px;
+    text-align: left;
+    font-family: 'barlow-bold';
+    border-left: 4px  solid #ff6c00;
+}
+
+ion-footer {
+
+    &.footer-md::before {
+        border: 0px !important;
+        --background: transparent !important;
+        opacity:0 !important;
+        
+    }
+}
+
+ion-col{
+    border: 1px solid black;
+}
+
+ion-header{
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+
+    .icone-voltar{
+        height: 16px;
+        width: 16px;    
+        position: absolute;
+        left: 18px;
+        top: 58px;
+        border-style: solid;
+        border-width:0px 0px 4px 4px;
+        border-color: #EB6607;
+        transform: rotate(45deg);
+    }
+    
+    .nome-contrato{
+        width: 100%;
+        padding-top: 54px;
+        padding-left: 46px;
+        font-size: 20px;
+        color: #949494;
+    }
+
+    .titulo-pagina{
+        padding-left: 46px;
+        font-family: barlow-bold;
+        margin-top: -5px;
+        font-size: 30px;
+        color: #000;
+    }
+
+    .botao{
+        display: flex;
+        height: 25px;
+        justify-content: space-around;
+        margin-top: 15px;
+
+        .finalizadas{
+            width: 45%;
+            background-color: #707070 !important;
+            border-radius: 50px;
+            text-align: center;
+            line-height: 25px;
+            font-size: 10px;
+            font-family: barlow-bold;
+            color: #ffffff !important;
+            letter-spacing: 1px;
+        }
+
+        .andamento{
+            width: 45%;
+            border: solid 1px #707070 !important;
+            border-radius: 50px;
+            text-align: center;
+            line-height: 25px;  
+            font-size: 10px;
+            background-color: #fff !important;
+            font-family: barlow-bold;
+            color: #707070 !important;
+            letter-spacing: 1px;
+
+        }
+    }
+
+}
+
+
+
+.botao-adicionar {
+    width: 68px;
+    height: 68px;
+    box-shadow: 0 3px 7px 0 rgba(155, 155, 155, 0.7);
+    background-color: #ff6c00;
+  }

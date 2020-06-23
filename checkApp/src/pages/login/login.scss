@@ -1,0 +1,66 @@
+page-login {
+  // background-color: paleturquoise;
+  background-image: url(../../assets/imgs/background_login_menor.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+
+}
+
+@font-face {
+  font-family: 'light';
+  src: url('../../assets/fonts/Barlow-Light.otf');//mine
+}
+
+.titulo-app{
+  font-family: light;
+  font-size: 31px;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.container-login{
+  padding: 16px;
+}
+
+::-webkit-scrollbar,
+*::-webkit-scrollbar {
+  display: none;
+}
+
+ion-item{
+  background-color: transparent !important;
+  padding-left: 0px !important;
+  height: 67px;
+  
+  ion-input{
+    background-color: #fff;
+    height: 80px !important;
+    border-radius: 5px;
+    width: 100% !important;
+    padding-right: 0 !important;
+    padding-left: 8px;
+  }
+  ion-label{
+    margin: 0 !important;
+    color: #3C3C3C !important;
+    text-align: left;
+    padding-left: 8px;
+  }
+}
+
+.item-md.item-block .item-inner {
+  padding-right: 0px;
+}
+
+.no-scroll {
+    --overflow: hidden;
+}
+
+.logo{
+    width: 130px;
+    height: 100px;
+    margin: 130px auto 0px !important;
+    // border-radius: 10%;
+    background: url(../../assets/imgs/icone_metodo.svg) 0% 0% / 100% no-repeat;
+}

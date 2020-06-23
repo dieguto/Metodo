@@ -1,0 +1,77 @@
+page-meus-relatorios {
+
+}
+
+
+.relatorio-andamento{
+    width: 45%;
+    background-color: #005AAA !important;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 10px;
+    font-family: barlow-bold;
+    color: #ffffff !important;
+    letter-spacing: 1px;
+}
+
+.relatorio-finalizadas{
+    width: 45%;
+    border: solid 1px #73BE46 !important;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 25px;  
+    font-size: 10px;
+    background-color: #fff !important;
+    font-family: barlow-bold;
+    color: #73BE46 !important;
+    letter-spacing: 1px;
+}
+
+.card-relatorio{
+    border-left: 4px  solid #005AAA !important;
+    section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .item-relatorio{
+        width: fit-content;
+    }
+    .data-relatorio{
+        display: flex;
+        justify-content: space-between;
+        padding-right: 22px;
+        margin-top: 3px;
+        margin-bottom: 20px;
+        div{
+            width: fit-content;
+            font-size: 23px ;
+            &:nth-child(1){
+                color: #707070;  
+                font-size: 20px ;
+                margin-top: 3px;
+                //colocar a regular font
+            }
+        }
+    }
+    
+    .botao{
+        
+        padding-top: 12px;
+        position: absolute;
+        right:  40px;
+        .andamento{
+            width: 75px;
+            background-color: #005AAA !important;
+            border-radius: 50px;
+            text-align: center !important;
+            line-height: 18px;
+            font-size: 9px;
+            font-family: barlow-bold;
+            color: #ffffff !important;
+            letter-spacing: 1px;
+        }
+    }
+
+}

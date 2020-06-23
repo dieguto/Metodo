@@ -1,0 +1,35 @@
+ion-icon {
+    
+    &[class*="icone-"] {
+        mask-size: contain;
+        mask-position: 50% 50%;
+        mask-repeat: no-repeat;
+        background: currentColor;
+       
+        width: 1em;
+        height: 1em;
+    }
+// custom icons
+    &[class*="tijolo"] {
+        mask-image: url(../assets/icon/tijolo.svg);
+        color: #EB6607;
+    }
+    &[class*="notificacao"] {
+        mask-image: url(../assets/icon/notificacao.svg);
+        color: #EB6607;
+    }
+    &[class*="estrela"] {
+        mask-image: url(../assets/icon/estrelacheia.svg);
+        color: #EB6607;
+    }
+    &[class*="estrelavazia"] {
+       background-image: url(../assets/icon/estrelavazia.svg);
+        color: #ffffff;
+    }
+
+}
+
+
+.tabs-md .tab-button[aria-selected=true] .tab-button-icon {
+    color: #EB6607 !important;
+}
